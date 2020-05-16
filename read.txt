@@ -1,0 +1,22 @@
+数据下载详情链接：
+https://www.kaggle.com/carlosparadis/fires-from-space-australia-and-new-zeland/data
+
+
+latitude：纬度：1公里火灾像素的中心，但不一定是火灾的实际位置，因为可以在1公里像素内检测到一次或多次火灾。
+longitude：经度：1km火灾像素的中心，但不一定能确定火灾的实际位置，因为可以在1km像素内检测到一次或多次火灾。
+brightness（bright_ti4）：亮度温度21（开尔文）：火像素的通道21/22亮度温度，以开尔文为单位。
+scan：沿扫描像素大小：该算法会产生1公里的火像素，但MODIS像素会朝扫描边缘变大。扫描和跟踪反映实际像素大小。
+track：沿轨道像素大小：该算法会产生1公里的火像素，但MODIS像素会朝扫描边缘变大。扫描和跟踪反映实际像素大小。
+acq_date：采购日期：MODIS采购的日期。
+acq_time：采集时间：卫星的采集/越区时间（以UTC为单位）。
+satellite：卫星：A = Aqua，T = Terra。
+instrument：仪器：MODIS的常数。
+confidence：置信度（0-100％）：此值基于检测过程中使用的中间算法数量的集合。旨在帮助用户评估单个热点/火像素的质量。置信度估计值介于0
+version：版本（集合和源）：版本标识集合（例如MODIS集合6）和数据处理源：近实时（向集合添加NRT后缀）或标准处理（仅集合）。“
+bright_t31（bright_ti5 ）：亮度温度31（开尔文）：火象素的通道31亮度温度，以开尔文为单位。
+frp：火辐射功率：以兆瓦（兆瓦）表示像素积分的火辐射功率。
+daynight：日/夜：D =白天，N =夜间
+type：
+
+
+
